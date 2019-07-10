@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">ClassCon</string>
+    <!--Strings de configurar Seccion-->
+    <string name="btnTemario">Temario</string>
+    <string name="btnVaciar">Limpiar Seccion</string>
+    <string name="confVaciar">¿Está seguro de limpiar esta seccion?</string>
+    <string name="nomTema">Nombre del Tema:</string>
+    <string name="descTema">Descripción corta del Tema:</string>
+    <string name="nomMatTema">Tema de la Materia:</string>
+    <!-- Strings related to login -->
+    <string name="prompt_usuario">Usuario</string>
+    <string name="prompt_contrasena">Contraseña</string>
+    <string name="action_sign_in">Ingresar</string>
+    <string name="action_registrar">Registrarse</string>
+    <string name="error_invalid_usuario">El usuario es inválido</string>
+    <string name="error_invalid_password">Esta contraseña es muy corta</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="noUsers">¡No hay usuarios registrados!</string>
+    <string name="eElS">Error al eliminar la sección!</string>
+    <string name="confElS">¿Está seguro de eliminar la sección y todos los datos relacionados?</string>
+    <!--strings de registrar nuevo usuario-->
+    <string name="regUsu">Ingresa tu nombre de Usuario:</string>
+    <string name="regPass">Ingresa tu contraseña (máximo 20 caracteres):</string>
+    <string name="regCorreo">Ingresa tu e-mail:</string>
+    <string name="botonReg">Registrarse</string>
+    <string name="correoInvalido">E-mail inválido!</string>
+    <string name="errorReg">No se pudo completar el registro</string>
+    <string name="confpass">Ingresa de nuevo tu contraseña:</string>
+    <string name="noCoinc">Las contraseñas no coinciden!</string>
+    <!--strings de menu principal-->
+    <string name="title_activity_menu_pr">Secciones</string>
+    <string name="action_settings">Settings</string>
+    <string name="cUsu">Cuenta</string>
+    <string name="conf">Configuración</string>
+    <string name="ayuda">Acerca de</string>
+    <!--strings de agregar seccion-->
+    <string name="exitoSecc">Sección Agregada!</string>
+    <string name="errorMat">No se puede crear esta Materia!</string>
+    <string name="errorSecc">No se puede crear esta Sección!</string>
+    <string name="elSecc">Sección:</string>
+    <string name="hintSecc">D01</string>
+    <string name="hintNueva">Nombre de la materia</string>
+    <string name="hintIdN">Clave de Materia</string>
+    <string name="lunes">Lunes</string>
+    <string name="martes">Martes</string>
+    <string name="miercoles">Miércoles</string>
+    <string name="jueves">Jueves</string>
+    <string name="viernes">Viernes</string>
+    <string name="sabado">Sábado</string>
+    <string name="materia">Materia:</string>
+    <string name="horario">Horario:</string>
+    <string name="dias">Días de la semana:</string>
+    <string name="agregarSecc">Agregar una Sección</string>
+    <string name="Agregar">Agregar</string>
+    <string name="Cancelar">Cancelar</string>
+    <string name="hintI">Inicio 00:00</string>
+    <string name="hintF">Fin 00:00</string>
+    <string name="ciclo">Ciclo Escolar:</string>
+    <string-array name="ciclos">
+        <item>A</item>
+        <item>B</item>
+        <item>V</item>
+    </string-array>
+    <!--strings de menu secciones-->
+    <string name="vacio">No hay Secciones</string>
+    <string name="title_activity_menu_secciones">Menú de Sección</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <!--strings de tomar asistencia-->
+    <string name="tomarAsistencia">Tomar asistencia del día:</string>
+    <string name="listaAlumnos">Listado de Alumnos:</string>
+    <string name="aceptar">Aceptar</string>
+    <!--strings de ingresar evaluacion-->
+    <string name="agregarEvaluacion">Agregar actividad:</string>
+    <string name="hintNombreAct">Nombre de la Actividad</string>
+    <string name="descAct">Descripción corta:</string>
+    <string name="tipoAct">Tipo de Actividad:</string>
+    <string name="noActividades">No hay actividades</string>
+    <string name="temasAct">Temas relacionados:</string>
+    <string name="fechaEval">Fecha de la evaluación:</string>
+    <string name="calDefault">100.0</string>
+    <string name="nomAct">Actividad:</string>
+    <string name="ptAct">Porcentaje:</string>
+    <string name="guardarEv">Guardar</string>
+    <!--strings de ingresar clase-->
+    <string name="ingClase">Ingresar clase del día:</string>
+    <string name="hintNomClase">Nombre de la Clase</string>
+    <string name="hintDescClase">Descripción de la Clase</string>
+    <string name="materiales">Materiales utilizados:</string>
+    <string name="mat1">Proyector</string>
+    <string name="mat2">Portátil</string>
+    <string name="mat3">Exposición</string>
+    <string name="otroM">Otro</string>
+    <!--strings de control de clase-->
+    <string name="bEncuadre">Encuadre</string>
+    <string name="bAlumnos">Alumnos</string>
+    <string name="bEstadisticas">Estadísticas</string>
+    <!--strings de encuadre-->
+    <string name="critEval">Criterio de Evaluación</string>
+    <string name="act">Actividades</string>
+    <string name="pt">Porcentaje</string>
+    <string name="ptTareas">Tareas</string>
+    <string name="ptExam">Examenes</string>
+    <string name="ptProy">Proyectos</string>
+    <string name="hintPt">100</string>
+    <string name="modAct">Modificar Criterios</string>
+    <string name="tipoCrit">Nombre del Nuevo Criterio:</string>
+    <string name="prCritN">Porcentaje del Nuevo Criterio:</string>
+    <string name="ptTotal">Puntaje Total:</string>
+    <!--strings de reportes-->
+    <string name="tipoRep">Tipo de reporte:</string>
+    <string-array name="reportesDummy">
+        <item>Asistencia Grupal</item>
+        <item>Evaluación Grupal</item>
+        <item>Asistencia Individual</item>
+        <item>Evaluación Individual</item>
+        <item>Clases</item>
+    </string-array>
+    <string name="envRep">Enviar Reporte a e-mail</string>
+    <!--strings de respaldo-->
+    <string name="title_activity_cuenta">Cuenta</string>
+    <string name="resp">Enviar respaldo a e-mail</string>
+    <!--strings de alumnos-->
+    <string name="nomAl">Nombre del Alumno: </string>
+    <string name="codAl">Código del Alumno: </string>
+</resources>

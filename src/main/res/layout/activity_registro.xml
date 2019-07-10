@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.classcon.classcon.RegistroActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/regUsu"
+            android:textSize="16sp"/>
+        <EditText
+            android:id="@+id/regUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/regPass"
+            android:textSize="16sp"/>
+        <EditText
+            android:id="@+id/regPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:imeActionId="@+id/enPass" />
+        <TextView
+            android:id="@+id/regPassDos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confpass"
+            android:textSize="16sp"/>
+        <EditText
+            android:id="@+id/confPass"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/regCorreo"
+            android:textSize="16sp"/>
+        <EditText
+            android:id="@+id/regCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/regBoton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/botonReg"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</ScrollView>
